@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D64085C31B99D10B00E94A25 /* HMTargetActionListFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D64085C21B99D10B00E94A25 /* HMTargetActionListFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D64085D51B99D10B00E94A25 /* HMTargetActionListFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64085BE1B99D10B00E94A25 /* HMTargetActionListFramework.framework */; };
+		D64085D61B99D10B00E94A25 /* HMTargetActionListFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D64085BE1B99D10B00E94A25 /* HMTargetActionListFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D64085DD1B99D12100E94A25 /* HMTargetActionList.h in Headers */ = {isa = PBXBuildFile; fileRef = D6632ABB1B995A5B00709E36 /* HMTargetActionList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D64085DE1B99D12100E94A25 /* HMTargetActionList.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632ABC1B995A5B00709E36 /* HMTargetActionList.m */; };
+		D64085DF1B99D12100E94A25 /* HMWeakTargetAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D6632ABD1B995A5B00709E36 /* HMWeakTargetAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D64085E01B99D12100E94A25 /* HMWeakTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632ABE1B995A5B00709E36 /* HMWeakTargetAction.m */; };
 		D6632A971B995A1D00709E36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632A961B995A1D00709E36 /* main.m */; };
 		D6632A9A1B995A1D00709E36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632A991B995A1D00709E36 /* AppDelegate.m */; };
 		D6632A9D1B995A1D00709E36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632A9C1B995A1D00709E36 /* ViewController.m */; };
@@ -19,28 +26,21 @@
 		D6632AC21B995A6E00709E36 /* HMWeakTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632ABE1B995A5B00709E36 /* HMWeakTargetAction.m */; };
 		D6632AC41B995B2C00709E36 /* HMWeakTargetActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632AC31B995B2C00709E36 /* HMWeakTargetActionTest.m */; };
 		D6632AC61B995DB500709E36 /* HMTargetActionListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632AC51B995DB500709E36 /* HMTargetActionListTest.m */; };
-		D6632B421B99B14B00709E36 /* HMTargetActionListFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D6632B411B99B14B00709E36 /* HMTargetActionListFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6632B541B99B14B00709E36 /* HMTargetActionList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6632B3D1B99B14B00709E36 /* HMTargetActionList.framework */; };
-		D6632B551B99B14B00709E36 /* HMTargetActionList.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6632B3D1B99B14B00709E36 /* HMTargetActionList.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D6632B5D1B99B18F00709E36 /* HMTargetActionList.h in Headers */ = {isa = PBXBuildFile; fileRef = D6632ABB1B995A5B00709E36 /* HMTargetActionList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6632B5E1B99B18F00709E36 /* HMTargetActionList.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632ABC1B995A5B00709E36 /* HMTargetActionList.m */; };
-		D6632B5F1B99B18F00709E36 /* HMWeakTargetAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D6632ABD1B995A5B00709E36 /* HMWeakTargetAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6632B601B99B18F00709E36 /* HMWeakTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632ABE1B995A5B00709E36 /* HMWeakTargetAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D64085D31B99D10B00E94A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6632A891B995A1D00709E36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D64085BD1B99D10B00E94A25;
+			remoteInfo = HMTargetActionListFramework;
+		};
 		D6632AAB1B995A1D00709E36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D6632A891B995A1D00709E36 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D6632A901B995A1D00709E36;
-			remoteInfo = HMTargetActionList;
-		};
-		D6632B521B99B14B00709E36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D6632A891B995A1D00709E36 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D6632B3C1B99B14B00709E36;
 			remoteInfo = HMTargetActionList;
 		};
 /* End PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D6632B551B99B14B00709E36 /* HMTargetActionList.framework in Embed Frameworks */,
+				D64085D61B99D10B00E94A25 /* HMTargetActionListFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +60,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D64085BE1B99D10B00E94A25 /* HMTargetActionListFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMTargetActionListFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64085C11B99D10B00E94A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64085C21B99D10B00E94A25 /* HMTargetActionListFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTargetActionListFramework.h; sourceTree = "<group>"; };
 		D6632A911B995A1D00709E36 /* HMTargetActionListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMTargetActionListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6632A951B995A1D00709E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6632A961B995A1D00709E36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,17 +81,21 @@
 		D6632ABE1B995A5B00709E36 /* HMWeakTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMWeakTargetAction.m; path = HMTargetActionList/Class/HMWeakTargetAction.m; sourceTree = "<group>"; };
 		D6632AC31B995B2C00709E36 /* HMWeakTargetActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWeakTargetActionTest.m; sourceTree = "<group>"; };
 		D6632AC51B995DB500709E36 /* HMTargetActionListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTargetActionListTest.m; sourceTree = "<group>"; };
-		D6632B3D1B99B14B00709E36 /* HMTargetActionList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMTargetActionList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6632B401B99B14B00709E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6632B411B99B14B00709E36 /* HMTargetActionListFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTargetActionListFramework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D64085BA1B99D10B00E94A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6632A8E1B995A1D00709E36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6632B541B99B14B00709E36 /* HMTargetActionList.framework in Frameworks */,
+				D64085D51B99D10B00E94A25 /* HMTargetActionListFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,23 +106,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6632B391B99B14B00709E36 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D64085BF1B99D10B00E94A25 /* HMTargetActionListFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D64085C21B99D10B00E94A25 /* HMTargetActionListFramework.h */,
+				D64085C01B99D10B00E94A25 /* Supporting Files */,
+			);
+			path = HMTargetActionListFramework;
+			sourceTree = "<group>";
+		};
+		D64085C01B99D10B00E94A25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D64085C11B99D10B00E94A25 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D6632A881B995A1D00709E36 = {
 			isa = PBXGroup;
 			children = (
 				D6632ABA1B995A2400709E36 /* Class */,
 				D6632A931B995A1D00709E36 /* HMTargetActionListApp */,
 				D6632AAD1B995A1D00709E36 /* HMTargetActionListTests */,
-				D6632B3E1B99B14B00709E36 /* HMTargetActionList */,
+				D64085BF1B99D10B00E94A25 /* HMTargetActionListFramework */,
 				D6632A921B995A1D00709E36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,7 +142,7 @@
 			children = (
 				D6632A911B995A1D00709E36 /* HMTargetActionListApp.app */,
 				D6632AAA1B995A1D00709E36 /* HMTargetActionListTests.xctest */,
-				D6632B3D1B99B14B00709E36 /* HMTargetActionList.framework */,
+				D64085BE1B99D10B00E94A25 /* HMTargetActionListFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,39 +201,40 @@
 			name = Class;
 			sourceTree = "<group>";
 		};
-		D6632B3E1B99B14B00709E36 /* HMTargetActionList */ = {
-			isa = PBXGroup;
-			children = (
-				D6632B411B99B14B00709E36 /* HMTargetActionListFramework.h */,
-				D6632B3F1B99B14B00709E36 /* Supporting Files */,
-			);
-			path = HMTargetActionList;
-			sourceTree = "<group>";
-		};
-		D6632B3F1B99B14B00709E36 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D6632B401B99B14B00709E36 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D6632B3A1B99B14B00709E36 /* Headers */ = {
+		D64085BB1B99D10B00E94A25 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6632B5F1B99B18F00709E36 /* HMWeakTargetAction.h in Headers */,
-				D6632B5D1B99B18F00709E36 /* HMTargetActionList.h in Headers */,
-				D6632B421B99B14B00709E36 /* HMTargetActionListFramework.h in Headers */,
+				D64085DD1B99D12100E94A25 /* HMTargetActionList.h in Headers */,
+				D64085DF1B99D12100E94A25 /* HMWeakTargetAction.h in Headers */,
+				D64085C31B99D10B00E94A25 /* HMTargetActionListFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D64085BD1B99D10B00E94A25 /* HMTargetActionListFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64085DB1B99D10B00E94A25 /* Build configuration list for PBXNativeTarget "HMTargetActionListFramework" */;
+			buildPhases = (
+				D64085B91B99D10B00E94A25 /* Sources */,
+				D64085BA1B99D10B00E94A25 /* Frameworks */,
+				D64085BB1B99D10B00E94A25 /* Headers */,
+				D64085BC1B99D10B00E94A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMTargetActionListFramework;
+			productName = HMTargetActionListFramework;
+			productReference = D64085BE1B99D10B00E94A25 /* HMTargetActionListFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D6632A901B995A1D00709E36 /* HMTargetActionListApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6632AB41B995A1D00709E36 /* Build configuration list for PBXNativeTarget "HMTargetActionListApp" */;
@@ -229,7 +247,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D6632B531B99B14B00709E36 /* PBXTargetDependency */,
+				D64085D41B99D10B00E94A25 /* PBXTargetDependency */,
 			);
 			name = HMTargetActionListApp;
 			productName = HMTargetActionList;
@@ -254,24 +272,6 @@
 			productReference = D6632AAA1B995A1D00709E36 /* HMTargetActionListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D6632B3C1B99B14B00709E36 /* HMTargetActionList */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D6632B561B99B14B00709E36 /* Build configuration list for PBXNativeTarget "HMTargetActionList" */;
-			buildPhases = (
-				D6632B381B99B14B00709E36 /* Sources */,
-				D6632B391B99B14B00709E36 /* Frameworks */,
-				D6632B3A1B99B14B00709E36 /* Headers */,
-				D6632B3B1B99B14B00709E36 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HMTargetActionList;
-			productName = HMTargetActionList;
-			productReference = D6632B3D1B99B14B00709E36 /* HMTargetActionList.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -281,15 +281,15 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Muronaka Hiroaki";
 				TargetAttributes = {
+					D64085BD1B99D10B00E94A25 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					D6632A901B995A1D00709E36 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 					D6632AA91B995A1D00709E36 = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = D6632A901B995A1D00709E36;
-					};
-					D6632B3C1B99B14B00709E36 = {
-						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -308,12 +308,19 @@
 			targets = (
 				D6632A901B995A1D00709E36 /* HMTargetActionListApp */,
 				D6632AA91B995A1D00709E36 /* HMTargetActionListTests */,
-				D6632B3C1B99B14B00709E36 /* HMTargetActionList */,
+				D64085BD1B99D10B00E94A25 /* HMTargetActionListFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D64085BC1B99D10B00E94A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6632A8F1B995A1D00709E36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,16 +338,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6632B3B1B99B14B00709E36 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D64085B91B99D10B00E94A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64085DE1B99D12100E94A25 /* HMTargetActionList.m in Sources */,
+				D64085E01B99D12100E94A25 /* HMWeakTargetAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6632A8D1B995A1D00709E36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,27 +373,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6632B381B99B14B00709E36 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6632B5E1B99B18F00709E36 /* HMTargetActionList.m in Sources */,
-				D6632B601B99B18F00709E36 /* HMWeakTargetAction.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D64085D41B99D10B00E94A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D64085BD1B99D10B00E94A25 /* HMTargetActionListFramework */;
+			targetProxy = D64085D31B99D10B00E94A25 /* PBXContainerItemProxy */;
+		};
 		D6632AAC1B995A1D00709E36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D6632A901B995A1D00709E36 /* HMTargetActionListApp */;
 			targetProxy = D6632AAB1B995A1D00709E36 /* PBXContainerItemProxy */;
-		};
-		D6632B531B99B14B00709E36 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D6632B3C1B99B14B00709E36 /* HMTargetActionList */;
-			targetProxy = D6632B521B99B14B00709E36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -408,6 +408,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D64085D71B99D10B00E94A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HMTargetActionListFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D64085D81B99D10B00E94A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HMTargetActionListFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D6632AB21B995A1D00709E36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -546,51 +588,17 @@
 			};
 			name = Release;
 		};
-		D6632B571B99B14B00709E36 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HMTargetActionList/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D6632B581B99B14B00709E36 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = HMTargetActionList/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D64085DB1B99D10B00E94A25 /* Build configuration list for PBXNativeTarget "HMTargetActionListFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64085D71B99D10B00E94A25 /* Debug */,
+				D64085D81B99D10B00E94A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D6632A8C1B995A1D00709E36 /* Build configuration list for PBXProject "HMTargetActionList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -617,14 +625,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		D6632B561B99B14B00709E36 /* Build configuration list for PBXNativeTarget "HMTargetActionList" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6632B571B99B14B00709E36 /* Debug */,
-				D6632B581B99B14B00709E36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D6632B3C1B99B14B00709E36"
-               BuildableName = "HMTargetActionList.framework"
-               BlueprintName = "HMTargetActionList"
+               BlueprintIdentifier = "D64085BD1B99D10B00E94A25"
+               BuildableName = "HMTargetActionListFramework.framework"
+               BlueprintName = "HMTargetActionListFramework"
                ReferencedContainer = "container:HMTargetActionList.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D6632B3C1B99B14B00709E36"
-            BuildableName = "HMTargetActionList.framework"
-            BlueprintName = "HMTargetActionList"
+            BlueprintIdentifier = "D64085BD1B99D10B00E94A25"
+            BuildableName = "HMTargetActionListFramework.framework"
+            BlueprintName = "HMTargetActionListFramework"
             ReferencedContainer = "container:HMTargetActionList.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D6632B3C1B99B14B00709E36"
-            BuildableName = "HMTargetActionList.framework"
-            BlueprintName = "HMTargetActionList"
+            BlueprintIdentifier = "D64085BD1B99D10B00E94A25"
+            BuildableName = "HMTargetActionListFramework.framework"
+            BlueprintName = "HMTargetActionListFramework"
             ReferencedContainer = "container:HMTargetActionList.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
