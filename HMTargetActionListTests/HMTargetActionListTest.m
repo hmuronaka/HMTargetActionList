@@ -40,6 +40,10 @@
     [self.targetList fireWithObject:self];
 }
 
+-(void)testAlwaysFail {
+    XCTFail();
+}
+
 -(void)handleTestFire:(id)sender {
     XCTAssertEqual(sender, self);
 }
