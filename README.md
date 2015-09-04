@@ -22,6 +22,6 @@ HMTargetActionList manages collections of actions and targets. They are managed 
 }
 
 -(void)fire {
-  [self.targetActionList fireWithObject:self]; // `withObject` is a sender object.
+  [self.targetActionList fireWithSender:self];
 }
 ```

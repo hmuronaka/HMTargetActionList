@@ -74,7 +74,7 @@
 
 #pragma mark fire
 
--(void)fireWithObject:(id)sender {
+-(void)fireWithSender:(id)sender {
     [self.targetActionList enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         HMWeakTargetAction* item = obj;
 #pragma clang diagnostic push

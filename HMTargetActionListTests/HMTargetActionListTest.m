@@ -37,7 +37,7 @@
 
 - (void)testFire {
     [self.targetList addTarget:self action:@selector(handleTestFire:)];
-    [self.targetList fireWithObject:self];
+    [self.targetList fireWithSender:self];
 }
 
 -(void)handleTestFire:(id)sender {
@@ -47,7 +47,7 @@
 -(void)testNotDuplicateFire {
     [self.targetList addTarget:self action:@selector(handleTestDuplicateFire:)];
     [self.targetList addTarget:self action:@selector(handleTestDuplicateFire:)];
-    [self.targetList fireWithObject:self];
+    [self.targetList fireWithSender:self];
 }
 
 -(void)handleTestDuplicateFire:(id)sender {
@@ -59,7 +59,7 @@
     [self.targetList addTarget:self action:@selector(handleRemoveTarget1:)];
     [self.targetList addTarget:self action:@selector(handleRemoveTarget2:)];
     [self.targetList removeActionFromTarget:self];
-    [self.targetList fireWithObject:self];
+    [self.targetList fireWithSender:self];
 }
 
 
@@ -75,7 +75,7 @@
     [self.targetList addTarget:self action:@selector(handleRemoveTargetAction1:)];
     [self.targetList addTarget:self action:@selector(handleRemoveTargetAction2:)];
     [self.targetList removeTaget:self action:@selector(handleRemoveTargetAction2:)];
-    [self.targetList fireWithObject:self];
+    [self.targetList fireWithSender:self];
 }
 
 -(void)handleRemoveTargetAction1:(id)sender {
@@ -90,11 +90,11 @@
     [self.targetList addTarget:self action:@selector(handleRemoveTarget1:)];
     [self.targetList addTarget:self action:@selector(handleRemoveTarget2:)];
     [self.targetList removeAll];
-    [self.targetList fireWithObject:self];
+    [self.targetList fireWithSender:self];
 }
 
 -(void)testWeak {
-    [self.forWeakTestList fireWithObject:self];
+    [self.forWeakTestList fireWithSender:self];
 }
 
 -(void)handleWeakTest:(id)sender {

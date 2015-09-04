@@ -17,6 +17,6 @@
 -(void)removeTaget:(id)target action:(SEL)action;
 -(void)removeAll;
 
--(void)fireWithObject:(id)obj;
+-(void)fireWithSender:(id)obj;
 
 @end
