@@ -48,20 +48,6 @@
                ReferencedContainer = "container:HMTargetActionList.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D64085C71B99D10B00E94A25"
-               BuildableName = "HMTargetActionListFrameworkTests.xctest"
-               BlueprintName = "HMTargetActionListFrameworkTests"
-               ReferencedContainer = "container:HMTargetActionList.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -87,16 +73,6 @@
                BlueprintIdentifier = "D6632AA91B995A1D00709E36"
                BuildableName = "HMTargetActionListAppTests.xctest"
                BlueprintName = "HMTargetActionListAppTests"
-               ReferencedContainer = "container:HMTargetActionList.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D64085C71B99D10B00E94A25"
-               BuildableName = "HMTargetActionListFrameworkTests.xctest"
-               BlueprintName = "HMTargetActionListFrameworkTests"
                ReferencedContainer = "container:HMTargetActionList.xcodeproj">
             </BuildableReference>
          </TestableReference>
