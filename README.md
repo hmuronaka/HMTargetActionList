@@ -1,4 +1,6 @@
-# HMTargetActionList
+# HMTargetActionList 
+
+[![Build Status](https://travis-ci.org/hmuronaka/HMTargetActionList.svg)](https://travis-ci.org/hmuronaka/HMTargetActionList)
 
 HMTargetActionList manages collections of actions and targets. They are managed as weak objects.
 
