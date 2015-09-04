@@ -50,7 +50,7 @@
 		D6632A9F1B995A1D00709E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6632AA11B995A1D00709E36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D6632AA41B995A1D00709E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D6632AAA1B995A1D00709E36 /* HMTargetActionListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMTargetActionListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6632AAA1B995A1D00709E36 /* HMTargetActionListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMTargetActionListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6632AAF1B995A1D00709E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6632ABB1B995A5B00709E36 /* HMTargetActionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMTargetActionList.h; path = HMTargetActionList/Class/HMTargetActionList.h; sourceTree = "<group>"; };
 		D6632ABC1B995A5B00709E36 /* HMTargetActionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMTargetActionList.m; path = HMTargetActionList/Class/HMTargetActionList.m; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				D6632A911B995A1D00709E36 /* HMTargetActionListApp.app */,
-				D6632AAA1B995A1D00709E36 /* HMTargetActionListTests.xctest */,
+				D6632AAA1B995A1D00709E36 /* HMTargetActionListAppTests.xctest */,
 				D64085BE1B99D10B00E94A25 /* HMTargetActionListFramework.framework */,
 			);
 			name = Products;
@@ -243,7 +243,7 @@
 			);
 			name = HMTargetActionListAppTests;
 			productName = HMTargetActionListTests;
-			productReference = D6632AAA1B995A1D00709E36 /* HMTargetActionListTests.xctest */;
+			productReference = D6632AAA1B995A1D00709E36 /* HMTargetActionListAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -538,7 +538,7 @@
 				INFOPLIST_FILE = HMTargetActionListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMTargetActionList.app/HMTargetActionList";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMTargetActionListApp.app/HMTargetActionListApp";
 			};
 			name = Debug;
 		};
@@ -553,7 +553,7 @@
 				INFOPLIST_FILE = HMTargetActionListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMTargetActionList.app/HMTargetActionList";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMTargetActionListApp.app/HMTargetActionListApp";
 			};
 			name = Release;
 		};
