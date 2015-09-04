@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D64085C31B99D10B00E94A25 /* HMTargetActionListFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D64085C21B99D10B00E94A25 /* HMTargetActionListFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D64085D51B99D10B00E94A25 /* HMTargetActionListFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64085BE1B99D10B00E94A25 /* HMTargetActionListFramework.framework */; };
-		D64085D61B99D10B00E94A25 /* HMTargetActionListFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D64085BE1B99D10B00E94A25 /* HMTargetActionListFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D64085DD1B99D12100E94A25 /* HMTargetActionList.h in Headers */ = {isa = PBXBuildFile; fileRef = D6632ABB1B995A5B00709E36 /* HMTargetActionList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D64085DE1B99D12100E94A25 /* HMTargetActionList.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632ABC1B995A5B00709E36 /* HMTargetActionList.m */; };
 		D64085DF1B99D12100E94A25 /* HMWeakTargetAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D6632ABD1B995A5B00709E36 /* HMWeakTargetAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,13 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D64085D31B99D10B00E94A25 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D6632A891B995A1D00709E36 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D64085BD1B99D10B00E94A25;
-			remoteInfo = HMTargetActionListFramework;
-		};
 		D6632AAB1B995A1D00709E36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D6632A891B995A1D00709E36 /* Project object */;
@@ -44,20 +35,6 @@
 			remoteInfo = HMTargetActionList;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		D6632B591B99B14B00709E36 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D64085D61B99D10B00E94A25 /* HMTargetActionListFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D64085BE1B99D10B00E94A25 /* HMTargetActionListFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMTargetActionListFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64085D51B99D10B00E94A25 /* HMTargetActionListFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,12 +218,10 @@
 				D6632A8D1B995A1D00709E36 /* Sources */,
 				D6632A8E1B995A1D00709E36 /* Frameworks */,
 				D6632A8F1B995A1D00709E36 /* Resources */,
-				D6632B591B99B14B00709E36 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D64085D41B99D10B00E94A25 /* PBXTargetDependency */,
 			);
 			name = HMTargetActionListApp;
 			productName = HMTargetActionList;
@@ -376,11 +350,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D64085D41B99D10B00E94A25 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D64085BD1B99D10B00E94A25 /* HMTargetActionListFramework */;
-			targetProxy = D64085D31B99D10B00E94A25 /* PBXContainerItemProxy */;
-		};
 		D6632AAC1B995A1D00709E36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D6632A901B995A1D00709E36 /* HMTargetActionListApp */;
@@ -486,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -524,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -537,7 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HMTargetActionList/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -548,7 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HMTargetActionList/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
