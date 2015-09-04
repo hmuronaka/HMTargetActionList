@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/hmuronaka/HMTargetActionList.svg)](https://travis-ci.org/hmuronaka/HMTargetActionList)
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 HMTargetActionList manages collections of actions and targets. They are managed as weak objects.
 
 # usage
