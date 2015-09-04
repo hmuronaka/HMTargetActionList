@@ -13,7 +13,12 @@
 		D6632AA01B995A1D00709E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6632A9E1B995A1D00709E36 /* Main.storyboard */; };
 		D6632AA21B995A1D00709E36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6632AA11B995A1D00709E36 /* Images.xcassets */; };
 		D6632AA51B995A1D00709E36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6632AA31B995A1D00709E36 /* LaunchScreen.xib */; };
-		D6632AB11B995A1D00709E36 /* HMTargetActionListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632AB01B995A1D00709E36 /* HMTargetActionListTests.m */; };
+		D6632ABF1B995A5B00709E36 /* HMTargetActionList.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632ABC1B995A5B00709E36 /* HMTargetActionList.m */; };
+		D6632AC01B995A5B00709E36 /* HMWeakTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632ABE1B995A5B00709E36 /* HMWeakTargetAction.m */; };
+		D6632AC11B995A6A00709E36 /* HMTargetActionList.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632ABC1B995A5B00709E36 /* HMTargetActionList.m */; };
+		D6632AC21B995A6E00709E36 /* HMWeakTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632ABE1B995A5B00709E36 /* HMWeakTargetAction.m */; };
+		D6632AC41B995B2C00709E36 /* HMWeakTargetActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632AC31B995B2C00709E36 /* HMWeakTargetActionTest.m */; };
+		D6632AC61B995DB500709E36 /* HMTargetActionListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632AC51B995DB500709E36 /* HMTargetActionListTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,12 @@
 		D6632AA41B995A1D00709E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D6632AAA1B995A1D00709E36 /* HMTargetActionListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMTargetActionListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6632AAF1B995A1D00709E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6632AB01B995A1D00709E36 /* HMTargetActionListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMTargetActionListTests.m; sourceTree = "<group>"; };
+		D6632ABB1B995A5B00709E36 /* HMTargetActionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMTargetActionList.h; path = HMTargetActionList/Class/HMTargetActionList.h; sourceTree = "<group>"; };
+		D6632ABC1B995A5B00709E36 /* HMTargetActionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMTargetActionList.m; path = HMTargetActionList/Class/HMTargetActionList.m; sourceTree = "<group>"; };
+		D6632ABD1B995A5B00709E36 /* HMWeakTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMWeakTargetAction.h; path = HMTargetActionList/Class/HMWeakTargetAction.h; sourceTree = "<group>"; };
+		D6632ABE1B995A5B00709E36 /* HMWeakTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMWeakTargetAction.m; path = HMTargetActionList/Class/HMWeakTargetAction.m; sourceTree = "<group>"; };
+		D6632AC31B995B2C00709E36 /* HMWeakTargetActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWeakTargetActionTest.m; sourceTree = "<group>"; };
+		D6632AC51B995DB500709E36 /* HMTargetActionListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTargetActionListTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,7 @@
 		D6632A881B995A1D00709E36 = {
 			isa = PBXGroup;
 			children = (
+				D6632ABA1B995A2400709E36 /* Class */,
 				D6632A931B995A1D00709E36 /* HMTargetActionList */,
 				D6632AAD1B995A1D00709E36 /* HMTargetActionListTests */,
 				D6632A921B995A1D00709E36 /* Products */,
@@ -105,8 +116,9 @@
 		D6632AAD1B995A1D00709E36 /* HMTargetActionListTests */ = {
 			isa = PBXGroup;
 			children = (
-				D6632AB01B995A1D00709E36 /* HMTargetActionListTests.m */,
 				D6632AAE1B995A1D00709E36 /* Supporting Files */,
+				D6632AC31B995B2C00709E36 /* HMWeakTargetActionTest.m */,
+				D6632AC51B995DB500709E36 /* HMTargetActionListTest.m */,
 			);
 			path = HMTargetActionListTests;
 			sourceTree = "<group>";
@@ -117,6 +129,17 @@
 				D6632AAF1B995A1D00709E36 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6632ABA1B995A2400709E36 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D6632ABB1B995A5B00709E36 /* HMTargetActionList.h */,
+				D6632ABC1B995A5B00709E36 /* HMTargetActionList.m */,
+				D6632ABD1B995A5B00709E36 /* HMWeakTargetAction.h */,
+				D6632ABE1B995A5B00709E36 /* HMWeakTargetAction.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6632AC01B995A5B00709E36 /* HMWeakTargetAction.m in Sources */,
 				D6632A9D1B995A1D00709E36 /* ViewController.m in Sources */,
+				D6632ABF1B995A5B00709E36 /* HMTargetActionList.m in Sources */,
 				D6632A9A1B995A1D00709E36 /* AppDelegate.m in Sources */,
 				D6632A971B995A1D00709E36 /* main.m in Sources */,
 			);
@@ -229,7 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6632AB11B995A1D00709E36 /* HMTargetActionListTests.m in Sources */,
+				D6632AC21B995A6E00709E36 /* HMWeakTargetAction.m in Sources */,
+				D6632AC61B995DB500709E36 /* HMTargetActionListTest.m in Sources */,
+				D6632AC11B995A6A00709E36 /* HMTargetActionList.m in Sources */,
+				D6632AC41B995B2C00709E36 /* HMWeakTargetActionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
