@@ -19,7 +19,7 @@
 		D6632AC21B995A6E00709E36 /* HMWeakTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632ABE1B995A5B00709E36 /* HMWeakTargetAction.m */; };
 		D6632AC41B995B2C00709E36 /* HMWeakTargetActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632AC31B995B2C00709E36 /* HMWeakTargetActionTest.m */; };
 		D6632AC61B995DB500709E36 /* HMTargetActionListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6632AC51B995DB500709E36 /* HMTargetActionListTest.m */; };
-		D6632B421B99B14B00709E36 /* HMTargetActionList.h in Headers */ = {isa = PBXBuildFile; fileRef = D6632B411B99B14B00709E36 /* HMTargetActionList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6632B421B99B14B00709E36 /* HMTargetActionListFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D6632B411B99B14B00709E36 /* HMTargetActionListFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6632B541B99B14B00709E36 /* HMTargetActionList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6632B3D1B99B14B00709E36 /* HMTargetActionList.framework */; };
 		D6632B551B99B14B00709E36 /* HMTargetActionList.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6632B3D1B99B14B00709E36 /* HMTargetActionList.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D6632B5D1B99B18F00709E36 /* HMTargetActionList.h in Headers */ = {isa = PBXBuildFile; fileRef = D6632ABB1B995A5B00709E36 /* HMTargetActionList.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -80,7 +80,7 @@
 		D6632AC51B995DB500709E36 /* HMTargetActionListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTargetActionListTest.m; sourceTree = "<group>"; };
 		D6632B3D1B99B14B00709E36 /* HMTargetActionList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMTargetActionList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6632B401B99B14B00709E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6632B411B99B14B00709E36 /* HMTargetActionList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTargetActionList.h; sourceTree = "<group>"; };
+		D6632B411B99B14B00709E36 /* HMTargetActionListFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMTargetActionListFramework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +187,7 @@
 		D6632B3E1B99B14B00709E36 /* HMTargetActionList */ = {
 			isa = PBXGroup;
 			children = (
-				D6632B411B99B14B00709E36 /* HMTargetActionList.h */,
+				D6632B411B99B14B00709E36 /* HMTargetActionListFramework.h */,
 				D6632B3F1B99B14B00709E36 /* Supporting Files */,
 			);
 			path = HMTargetActionList;
@@ -210,7 +210,7 @@
 			files = (
 				D6632B5F1B99B18F00709E36 /* HMWeakTargetAction.h in Headers */,
 				D6632B5D1B99B18F00709E36 /* HMTargetActionList.h in Headers */,
-				D6632B421B99B14B00709E36 /* HMTargetActionList.h in Headers */,
+				D6632B421B99B14B00709E36 /* HMTargetActionListFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
