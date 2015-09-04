@@ -1,9 +1,12 @@
-PROJECT = HMTargetActionList.xcodeproj
-TEST_TARGET = HMTargetActionListTests
+SCHEME = HMTargetActionList
+xcodebuild:=xcodebuild -scheme $(SCHEME) -sdk iphonesimulator -configuration Debug
+
+test: build
+	$(xcodebuild) test
+
+build: clean
+	$(xcodebuild)
 
 clean:
-	xcodebuild -project $(PROJECT) clean
-
-test:
-	xcodebuild -project $(PROJECT) -target $(TEST_TARGET) -sdk iphonesimulator -configuration Debug TEST_AFTER_BUILD=YES TEST_HOST=
+	$(xcodebuild) clean
 
