@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				D6632ABA1B995A2400709E36 /* Class */,
-				D6632A931B995A1D00709E36 /* HMTargetActionList */,
+				D6632A931B995A1D00709E36 /* HMTargetActionListApp */,
 				D6632AAD1B995A1D00709E36 /* HMTargetActionListTests */,
 				D6632A921B995A1D00709E36 /* Products */,
 			);
@@ -89,7 +89,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D6632A931B995A1D00709E36 /* HMTargetActionList */ = {
+		D6632A931B995A1D00709E36 /* HMTargetActionListApp */ = {
 			isa = PBXGroup;
 			children = (
 				D6632A981B995A1D00709E36 /* AppDelegate.h */,
@@ -101,6 +101,7 @@
 				D6632AA31B995A1D00709E36 /* LaunchScreen.xib */,
 				D6632A941B995A1D00709E36 /* Supporting Files */,
 			);
+			name = HMTargetActionListApp;
 			path = HMTargetActionList;
 			sourceTree = "<group>";
 		};
@@ -145,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D6632A901B995A1D00709E36 /* HMTargetActionList */ = {
+		D6632A901B995A1D00709E36 /* HMTargetActionListApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6632AB41B995A1D00709E36 /* Build configuration list for PBXNativeTarget "HMTargetActionList" */;
+			buildConfigurationList = D6632AB41B995A1D00709E36 /* Build configuration list for PBXNativeTarget "HMTargetActionListApp" */;
 			buildPhases = (
 				D6632A8D1B995A1D00709E36 /* Sources */,
 				D6632A8E1B995A1D00709E36 /* Frameworks */,
@@ -157,7 +158,7 @@
 			);
 			dependencies = (
 			);
-			name = HMTargetActionList;
+			name = HMTargetActionListApp;
 			productName = HMTargetActionList;
 			productReference = D6632A911B995A1D00709E36 /* HMTargetActionList.app */;
 			productType = "com.apple.product-type.application";
@@ -211,7 +212,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6632A901B995A1D00709E36 /* HMTargetActionList */,
+				D6632A901B995A1D00709E36 /* HMTargetActionListApp */,
 				D6632AA91B995A1D00709E36 /* HMTargetActionListTests */,
 			);
 		};
@@ -266,7 +267,7 @@
 /* Begin PBXTargetDependency section */
 		D6632AAC1B995A1D00709E36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D6632A901B995A1D00709E36 /* HMTargetActionList */;
+			target = D6632A901B995A1D00709E36 /* HMTargetActionListApp */;
 			targetProxy = D6632AAB1B995A1D00709E36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,13 +442,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6632AB41B995A1D00709E36 /* Build configuration list for PBXNativeTarget "HMTargetActionList" */ = {
+		D6632AB41B995A1D00709E36 /* Build configuration list for PBXNativeTarget "HMTargetActionListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6632AB51B995A1D00709E36 /* Debug */,
 				D6632AB61B995A1D00709E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6632AB71B995A1D00709E36 /* Build configuration list for PBXNativeTarget "HMTargetActionListTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +458,7 @@
 				D6632AB91B995A1D00709E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
