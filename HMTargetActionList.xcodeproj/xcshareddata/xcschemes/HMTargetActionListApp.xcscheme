@@ -34,6 +34,20 @@
                ReferencedContainer = "container:HMTargetActionList.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D6632AA91B995A1D00709E36"
+               BuildableName = "HMTargetActionListTests.xctest"
+               BlueprintName = "HMTargetActionListTests"
+               ReferencedContainer = "container:HMTargetActionList.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -42,6 +56,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D6632AA91B995A1D00709E36"
+               BuildableName = "HMTargetActionListTests.xctest"
+               BlueprintName = "HMTargetActionListTests"
+               ReferencedContainer = "container:HMTargetActionList.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
