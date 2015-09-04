@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D6632AA91B995A1D00709E36"
-               BuildableName = "HMTargetActionListTests.xctest"
-               BlueprintName = "HMTargetActionListTests"
+               BuildableName = "HMTargetActionListAppTests.xctest"
+               BlueprintName = "HMTargetActionListAppTests"
                ReferencedContainer = "container:HMTargetActionList.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D6632AA91B995A1D00709E36"
-               BuildableName = "HMTargetActionListTests.xctest"
-               BlueprintName = "HMTargetActionListTests"
+               BuildableName = "HMTargetActionListAppTests.xctest"
+               BlueprintName = "HMTargetActionListAppTests"
                ReferencedContainer = "container:HMTargetActionList.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -75,8 +75,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D6632AA91B995A1D00709E36"
-               BuildableName = "HMTargetActionListTests.xctest"
-               BlueprintName = "HMTargetActionListTests"
+               BuildableName = "HMTargetActionListAppTests.xctest"
+               BlueprintName = "HMTargetActionListAppTests"
                ReferencedContainer = "container:HMTargetActionList.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -85,8 +85,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D6632AA91B995A1D00709E36"
-               BuildableName = "HMTargetActionListTests.xctest"
-               BlueprintName = "HMTargetActionListTests"
+               BuildableName = "HMTargetActionListAppTests.xctest"
+               BlueprintName = "HMTargetActionListAppTests"
                ReferencedContainer = "container:HMTargetActionList.xcodeproj">
             </BuildableReference>
          </TestableReference>

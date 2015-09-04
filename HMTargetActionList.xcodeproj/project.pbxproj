@@ -228,9 +228,9 @@
 			productReference = D6632A911B995A1D00709E36 /* HMTargetActionListApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D6632AA91B995A1D00709E36 /* HMTargetActionListTests */ = {
+		D6632AA91B995A1D00709E36 /* HMTargetActionListAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6632AB71B995A1D00709E36 /* Build configuration list for PBXNativeTarget "HMTargetActionListTests" */;
+			buildConfigurationList = D6632AB71B995A1D00709E36 /* Build configuration list for PBXNativeTarget "HMTargetActionListAppTests" */;
 			buildPhases = (
 				D6632AA61B995A1D00709E36 /* Sources */,
 				D6632AA71B995A1D00709E36 /* Frameworks */,
@@ -241,7 +241,7 @@
 			dependencies = (
 				D6632AAC1B995A1D00709E36 /* PBXTargetDependency */,
 			);
-			name = HMTargetActionListTests;
+			name = HMTargetActionListAppTests;
 			productName = HMTargetActionListTests;
 			productReference = D6632AAA1B995A1D00709E36 /* HMTargetActionListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -281,7 +281,7 @@
 			projectRoot = "";
 			targets = (
 				D6632A901B995A1D00709E36 /* HMTargetActionListApp */,
-				D6632AA91B995A1D00709E36 /* HMTargetActionListTests */,
+				D6632AA91B995A1D00709E36 /* HMTargetActionListAppTests */,
 				D64085BD1B99D10B00E94A25 /* HMTargetActionListFramework */,
 			);
 		};
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6632AB71B995A1D00709E36 /* Build configuration list for PBXNativeTarget "HMTargetActionListTests" */ = {
+		D6632AB71B995A1D00709E36 /* Build configuration list for PBXNativeTarget "HMTargetActionListAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6632AB81B995A1D00709E36 /* Debug */,
