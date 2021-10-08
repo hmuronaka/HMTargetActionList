@@ -1,29 +1,30 @@
 # HMTargetActionList 
 
-[![Build Status](https://travis-ci.org/hmuronaka/HMTargetActionList.svg)](https://travis-ci.org/hmuronaka/HMTargetActionList)
+HMTargetActionList manages collections of actions and targets. target objects are managed as weak objects.
+(This could be legacy style.)
 
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+# Require
 
-HMTargetActionList manages collections of actions and targets. They are managed as weak objects.
+Swift5
 
 # usage
 
-```obj-c
-@property(nonatomic, strong) HMTargetActionListener targetActionList;
+```Swift
+class CustomGestureRecognizer: UIGestureRecognizer {
 
--(instancetype)init {
-  self = [super init];
-  if( self ) {
-    self.targetActionList = [HMTargetActionList new];
+  private var targetActionList = HMTargetActionList()
+
+  override func addTarget(_ target: Any?, action: Selector) {
+    self.targetActionList.addTarget(target as AnyObject, action: action)
   }
-  return self;
-}
 
--(void)addTarget:(NSObject*)target action:(SEL)action {
-  [self.targetActionList addTarget:target action:action];
-}
-
--(void)fire {
-  [self.targetActionList fireWithSender:self];
+  private func fire() {
+    let sender = self
+    self.targetActionList.fire(sender)
+  }
 }
 ```
+
+# LICENSE
+
+MIT
